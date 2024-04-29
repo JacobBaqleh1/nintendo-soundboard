@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>nintendo buttons</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <main
+      class="bg-no-repeat bg-contain bg-center bg-black"
+      style="background-image: url(./images/gameboy.jpg)"
+    >
+      <container
+        class="flex flex-wrap lg:flex-nowrap lg:flex-row mx-5 md:mx-10 lg:mx-20 items-center justify-center lg:justify-between h-screen"
+      >
+        <div class="">
+          <button class="w-full" id="d-key">
+            <div class="flex justify-center">
+              <img
+                class="w-15 h-15 lg:w-20 md:h-20"
+                src="./images/boo-mario.png"
+                alt="Boo"
+              />
+            </div>
+          </button>
+          <div class="flex justify-center bg-black">
+            <kbd class="text-white">D</kbd>
+          </div>
+        </div>
+        <div class="">
+          <button class="w-full" id="f-key">
+            <div class="flex justify-center">
+              <img
+                class="w-15 h-15 lg:w-20 md:h-20"
+                src="./images/yoshi.png"
+                alt="yoshi"
+              />
+            </div>
+          </button>
+          <div class="flex justify-center bg-black">
+            <kbd class="text-white">F</kbd>
+          </div>
+        </div>
+        <div>
+          <button class="w-full" id="j-key">
+            <div class="flex justify-center">
+              <img
+                class="w-15 h-15 lg:w-20 md:h-20"
+                src="./images/redmushroom.png"
+                alt="red mushroom"
+              />
+            </div>
+          </button>
+          <div class="flex justify-center bg-black">
+            <kbd class="text-white">J</kbd>
+          </div>
+        </div>
+        <div>
+          <button class="w-full" id="k-key">
+            <div class="flex justify-center">
+              <img
+                class="w-40 h-40 lg:w-20 md:h-20"
+                src="./images/1-up.png"
+                alt="1-up"
+              />
+            </div>
+          </button>
+          <div class="flex justify-center bg-black">
+            <kbd class="text-white">K</kbd>
+          </div>
+        </div>
+        <div>
+          <button class="w-full" id="l-key">
+            <div class="flex justify-center">
+              <img
+                class="w-15 h-15 lg:w-20 md:h-20"
+                src="./images/new-coin.png"
+                alt="coin"
+              />
+            </div>
+          </button>
+          <div class="flex justify-center bg-black">
+            <kbd class="text-white">L</kbd>
+          </div>
+        </div>
+      </container>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
