@@ -13,8 +13,12 @@ mainElement.addEventListener("click", function (event) {
 
   const key = button.id.replace("-key", "").toLowerCase();
   const sound = sounds[key];
-  if (sound) {
+  if (sound && button) {
     sound.play();
+    button.classList.add("key");
+    setTimeout(() => {
+      button.classList.remove("key");
+    }, 1000);
   }
 });
 
